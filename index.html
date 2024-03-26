@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="images/code-solid.svg">
+    <title> Portfolio</title>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/pf.png" class="logo">
+                <ul id="menus">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fresher Frontend developer</p>
+                <h1>Hi, I'm Soma Nandi</h1>
+                <h2>I love learning about new things | drawing, <br/>
+                 technology and travel <br/></h2>
+             </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img src="images/SOMA1.jpg">
+                </div>
+                <div class="abt-col-2">
+                    <h1 class="sub-header">Who I am</h1>
+                    <p>I began my journey in software engineering during my sophomore year of college. It was not until <br>
+                        the summer of sophomore year I got the opportunity to intern as a web developer where I realized <br> 
+                        how powerful the skill of software engineering truly is. From there, I never looked back.    
+                    </p>
+                    <div class="tabs">
+                        <p class="tab-links act-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-conts act-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br/>English: intermediate, Bengali: native, Hindi: fluent</li>
+                            <li><span>Front-End</span><br/> HTML, CSS, Bootstrap, Javascript, JQuery</li>
+                            <li><span>Back-End</span><br/>c++</li>
+                            <li><span>Database</span><br/>DBMS, MySQL</li>
+                            <li><span>Tools</span><br/>Git, Github  </li>
+                            <li><span>Operating Systems</span><br>Windows</li>
+                        </ul>
+                    </div>
+                    <div class="tab-conts" id="education">
+                        <ul>
+                            <li><span>August 2018 - June 2021</span><br/> MCA | Asansol Engineering College | 8.30 DGPA</li>
+                            <li><span>August 2014 - June 2017</span><br/> BCA | Dr. B.C. Roy Engineering College | 7.50 DGPA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="resume">
+                    <a href="images/resume.pdf" download class="btn btncv">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="projects">
+        <div class="container">
+            <h1 class="sub-header">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/p1.jpg">
+                    <div class="layer">
+                       <h3>CFL Web App</h3>
+                       <p>The budgeting web app that allows you to visualize your finances.</p>
+                       <a href="https://somanandi.github.io/Goodreaders/" target="_blank" rel="noreferrer noopener"> <i class="fa-solid fa-link"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2.jpg">
+                    <div class="layer">
+                        <h3>Business Website</h3>
+                        <p>The website that showcases all the software I built so far.</p>
+                        <a href="https://somanandi.github.io/medino/" target="_blank" rel="noreferrer noopener"> <i class="fa-solid fa-link"></i></a> 
+                     </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="sub-header">Let's Connect</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> soma75225@gmail.com</p></br>
+                    <p> <i class="fa-solid fa-phone"></i> 8759126340</p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/soma-nandi-063b03219" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/somanandi" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
