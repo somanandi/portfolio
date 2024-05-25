@@ -264,6 +264,9 @@ nav .fa-solid {
 
 /**********Contact section**********/
 
+#contact {
+    margin: 40px 0;
+}
 .contact-l {
     flex-basis: 35%;
 }
