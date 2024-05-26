@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +27,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -38,8 +42,7 @@
               "RelativeToolTip": "style.css",
               "ViewState": "AQIAAAIBAAAAAAAAAAAAAAUBAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-25T15:15:45.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T15:15:45.889Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "E:\\projects\\portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAD4AAAAdAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-05-24T05:00:13.667Z",
               "EditorCaption": ""
