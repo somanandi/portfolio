@@ -18,7 +18,7 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
+    height: 84vh;
     background-size: cover;
     background-position: center;
 }
@@ -176,7 +176,7 @@ nav .fa-solid {
     background: #ef5327;
 }
 
-/* project */
+/************* project **************/
 #projects {
     padding: 50px 0;
 }
@@ -255,14 +255,11 @@ nav .fa-solid {
     border-radius: 6px;
     text-decoration: none;
     color: white;
-    transition: background 0.5s;
-}
-
-.btn:hover {
     background: #ef5327;
+    transition: 0.5s all;
 }
 
-/**********Contact section**********/
+/********** Contact section **********/
 
 #contact {
     margin: 40px 0;
@@ -274,10 +271,14 @@ nav .fa-solid {
     margin-top: 30px;
 }
 
-.contact-l p i {
+.mail-call {
     color: #ef5327;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mail-call i {
     margin-right: 15px;
-    font-size: 25px;
 }
 
 .social {
@@ -333,9 +334,9 @@ form .btncv {
 }
 
 /**********Responsive section**********/
-@media screen and (max-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     .header-text {
-        margin-top: 100%;
+        margin-top: 60%;
         font-size: 18px;
         margin-right: 40px;
     }
@@ -406,3 +407,19 @@ form .btncv {
         margin-left: -60px;
     }
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+    .header-text {
+        margin-top: 50%;
+    }
+    .abt-col-2 p {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    .tab-conts ul li {
+        font-size: 18px;
+    }
+}
+
